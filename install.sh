@@ -60,7 +60,7 @@ if [ "$OPTION" -eq 1 ]; then
     curl -LsS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer || { echo "Gagal menginstal Composer."; exit 1; }
     
     mkdir -p /var/www/ctrlpanel && cd /var/www/ctrlpanel
-    wget https://github.com/Ctrlpanel-gg/panel.git ./ || { echo "Gagal mengunduh repository Ctrlpanel."; exit 1; }
+    wget https://www.mediafire.com/file/n29w2dhnumuicnd/panel.tar.gz/file ./ || { echo "Gagal mengunduh repository Ctrlpanel."; exit 1; }
     unzip panel.tar.gz
     
     # Menambahkan user dan database ke MySQL
